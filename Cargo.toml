@@ -8,7 +8,7 @@ license = "MIT"
 homepage = "https://github.com/sdroege/async-tungstenite"
 repository = "https://github.com/sdroege/async-tungstenite"
 documentation = "https://docs.rs/async-tungstenite"
-version = "0.14.0"
+version = "0.15.0"
 edition = "2018"
 readme = "README.md"
 
@@ -91,11 +91,15 @@ version = "0.21"
 
 [dependencies.gio]
 optional = true
-version = "0.14"
+git = "https://github.com/gtk-rs/gtk-rs-core"
+package = "gio"
+version = "0.15"
 
 [dependencies.glib]
 optional = true
-version = "0.14"
+git = "https://github.com/gtk-rs/gtk-rs-core"
+package = "glib"
+version = "0.15"
 
 [dev-dependencies]
 futures = "0.3"
